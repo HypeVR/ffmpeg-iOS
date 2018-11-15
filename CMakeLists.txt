@@ -15,7 +15,7 @@ endif()
 
 
 set(url "https://s3-us-west-2.amazonaws.com/ffmpeg-ios/ffmpeg-ios-4.0.3.zip")
-set(md5 "d41d8cd98f00b204e9800998ecf8427e")
+set(md5 "0679eb668fa15c6c1f8f1ddc69ec1130")
 
 if( NOT EXISTS ${CMAKE_CURRENT_BINARY_DIR}/ffmpeg-ios.zip )
   message("Download from ${url}")
